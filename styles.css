@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700');
+
+
+body{margin: 0;
+  padding: 0;
+  line-height: 1rem;  
+}
+   
+    
+ .wrapper {
+    max-width:50rem;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+
+
+nav{
+	width: 100%;
+	background:#65CBC9;
+	text-align: center;
+}
+
+nav ul{
+	width:100%;
+	margin:0 auto;
+	padding:0;
+}
+
+nav ul li{
+	list-style:none;
+	display:inline-block;
+	padding:20px;
+}
+
+nav ul li:hover{
+	background:#AA64A9;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+fieldset{
+    background-color: #F5F5F5;
+    display: block;
+    margin:auto;
+    border:2px solid black;
+}
+
+legend{
+    padding:8px;
+    border:0.5px solid black;
+    background-color: #FFF;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width:100%;
+
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  background-color: #65CBC9;
+}
+.nav-item-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.4s ease;
+  color: #FFF;
+}
+
+.nav-item-link:hover {
+    color:#002E6D;
+}
+
+@media screen and (min-width:35rem) {
+  .box1{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    }
+   message{clear: both;
+    }
+    body{
+        line-height: 1.5rem;
+    }
+    
